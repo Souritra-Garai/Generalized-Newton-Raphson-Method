@@ -7,8 +7,10 @@ It is designed to solve system of equations of the kind
 $\vec{f}(\vec{x})=\vec{0}$
 
 For using Newton Raphson method to solve the above equation numerically, use find_roots function, with the arguments
-- f_vector : array of functions
+- f_array_input : array of functions
 - first_guess : array of real number to be used as first guess
+
+Returns : array of real numbers
 
 Based on
 Turns, Stephen R. "An Introduction to Combustion", pp - 710-712

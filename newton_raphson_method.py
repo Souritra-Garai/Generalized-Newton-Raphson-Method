@@ -74,6 +74,10 @@ def guess(f_array, x_vector, n) :
 def find_roots(f_array_input, first_guess) :
 
     n = len(first_guess)
+    
+    if n != len(f_array_input) :
+
+        raise RuntimeError('Size of f_array_input and first_guess donot match')
 
     f_array = np.copy(f_array_input)
     
